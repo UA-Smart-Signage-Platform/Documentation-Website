@@ -1,5 +1,8 @@
 site_name: UASmart Signage Platform Docs
 site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+nav:
+  - Welcome: welcome.md
+  - Documentation: index.md
 theme:
   name: material
   features:
@@ -29,6 +32,7 @@ theme:
 
 plugins:
   - social
+  - search
 
 extra:
   social:
