@@ -3,6 +3,8 @@ site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
 nav:
   - Welcome: welcome.md
   - Documentation: index.md
+  - Project Info: project_info.md
+  - Milestones: milestones.md
 theme:
   name: material
   features:

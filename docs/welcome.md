@@ -11,7 +11,7 @@ The UASmart Signage Platform offers the following features:
 - **Real-time monitoring:** Monitor the status and performance of your digital signage displays in real-time.
 - **Customizable templates:** Choose from a variety of templates to create visually appealing signage.
 
-![Digital Signage](digital-signage-cover.jpg)
+![Digital Signage](files/digital-signage-cover.jpg)
 
 ## Documentation
 
