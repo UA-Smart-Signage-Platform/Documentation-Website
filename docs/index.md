@@ -1,82 +1,19 @@
-# UASmart Signage Platform Docs
+# UASmart Signage Platform
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the UASmart Signage Platform! This platform provides a comprehensive solution for managing and displaying digital signage content.
 
-## Commands
+## Overview
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The UASmart Signage Platform offers the following features:
 
-## Project layout
+- **Easy content management:** Upload and organize your digital signage content with a user-friendly interface.
+- **Flexible scheduling:** Schedule your content to be displayed at specific times and dates.
+- **Real-time monitoring:** Monitor the status and performance of your digital signage displays in real-time.
+- **Customizable templates:** Choose from a variety of templates to create visually appealing signage.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![Digital Signage](files/digital-signage-cover.jpg)
 
-## Code Annotation Examples
+## Documentation
 
-### Codeblocks
+For detailed information on using the UASmart Signage Platform, refer to the [full documentation](index.md).
 
-Some `code` goes here.
-
-### Plain codeblock
-
-A plain codeblock:
-
-```
-Some code here
-def myfunction()
-// some comment
-```
-
-#### Code for a specific language
-
-Some more code with the `py` at the start:
-
-``` py
-import tensorflow as tf
-def whatever()
-```
-
-#### With a title
-
-``` py title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### With line numbers
-
-``` py linenums="1"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### Highlighting lines
-
-``` py hl_lines="2 3"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-## Icons and Emojs
-
-:smile: 
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
