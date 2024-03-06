@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # UASmart Signage Platform
 
 Welcome to the UASmart Signage Platform! This platform provides a comprehensive solution for managing and displaying digital signage content.
@@ -16,4 +22,3 @@ The UASmart Signage Platform offers the following features:
 ## Documentation
 
 For detailed information on using the UASmart Signage Platform, refer to the [full documentation](index.md).
-

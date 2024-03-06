@@ -7,9 +7,12 @@ nav:
   - Milestones: milestones.md
 theme:
   name: material
+  logo: files/logo.png
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.instant
+    - navigation.tracking
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -21,15 +24,15 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/weather-sunny
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
+      primary: light green
+      accent: purple
+    - scheme: slate
       toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: light green
       accent: lime
 
 plugins:
@@ -40,7 +43,6 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/UA-Smart-Signage-Platform/
-    
 
 markdown_extensions:
   - pymdownx.highlight:
