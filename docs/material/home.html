@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página</title>
+    <style>
+      .md-tabs__link{
+        font-size: .8rem !important;
+      }
+
+      .md-tabs{
+        background-color: rgba(0, 0, 0, 0) !important;
+        position: absolute !important;
+        font-weight: 1000 !important;
+      }
+
+      .md-content__inner::before{
+        height: 0px !important;
+      }
+      .md-main__inner.md-grid{
+        margin-top: 0px;
+        max-width: 100%;
+      }
+      .md-content__inner.md-typeset{
+        margin: 0 0 0 0;
+        padding-top: 0px;
+      }
+
+      .md-typeset h2 {
+        font-weight: normal !important;
+        font-size: 32px !important;
+        line-height: normal !important;
+        margin: 0 0 0 0 !important;
+        letter-spacing: normal !important;
+        padding-bottom: 65px;
+      }
+
+
+      .hero-buttons a{
+        color: #ffffff !important;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif !important;
+      }
+
+      .hero-image {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .hero-image::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 1)
+        );
+        z-index: 2;
+      }
+
+      .hero-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      .hero-text {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        color: #ffffff !important;
+        text-align: center;
+      }
+
+      .hero-text h1 {
+        font-size: 4em !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+        margin-bottom: 20px !important;
+        letter-spacing: normal !important;
+        line-height: normal !important;
+        margin: 0 0 0 0 !important;
+        margin-bottom: 35px !important;
+      }
+
+      .hero-buttons {
+        display: flex;
+        gap: 20px;
+        z-index: 3;
+        justify-content: center;
+      }
+
+      .hero-button,
+      .arrow-button {
+        background-color: #4caf50; 
+        color: #ffffff; 
+        padding: 10px 20px;
+        font-size: 1.5em;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+      }
+
+      .hero-button:hover,
+      .arrow-button:hover {
+        background-color: #45a049; 
+      }
+
+      .arrow-button::after {
+        content: "\2192"; 
+        margin-left: 10px;
+      }
+
+      .intro-section {
+        padding: 50px;
+        background-color: #000000; 
+        text-align: center;
+      }
+
+      .intro-columns {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .intro-div {
+        width: 25%;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .project-section {
+        padding: 50px;
+        background-color: #f0f0f0; 
+        text-align: center;
+      }
+
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px; 
+        flex-wrap: wrap;
+        padding-right: 16%;
+        padding-left: 16%;
+      }
+
+      .card {
+        width: 250px;
+        padding: 20px;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        margin: 10px;
+        background-color: #ffffff; 
+        text-align: center;
+      }
+
+      .card img {
+        border-radius: 50%;
+        max-width: 80%;
+        height: auto;
+      }
+
+      .github-link {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #0366d6;
+      }
+    </style>
+  </head>
+  <body>
+    {% extends "base.html" %}
+    {% block content %}
+    <div class="hero-image">
+      <img src="files/digital-signage-cover.jpg" alt="Hero Image" />
+      <div class="hero-text">
+        <h1>Control all monitors remotely</h1>
+        <h2>A Digital Signage System for DETI</h2>
+        <div class="hero-buttons">
+          <a href="#section-intro" class="hero-button" data-scroll>See More</a>
+          <a href="documentation" class="arrow-button" data-scroll
+            >Documentation</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div id="section-intro" class="intro-section">
+      <div class="intro-columns">
+        <div class="intro-div">
+          <img src="files/iconsHome/Group 2calendar.svg" />
+          <h3>Flexible Scheduling</h3>
+          <p>
+            Schedule your content to be displayed at specific times and dates.
+          </p>
+        </div>
+        <div class="intro-div">
+          <img src="files/iconsHome/Group 3monitor.svg" />
+          <h3>Real-time Monitoring</h3>
+          <p>
+            Monitor the status and performance of your digital signage displays
+            in real-time.
+          </p>
+        </div>
+        <div class="intro-div">
+          <img src="files/iconsHome/cust.svg" />
+          <h3>Customizable</h3>
+          <p>
+            Choose from a variety of templates or create your own to create
+            visually appealing signage.
+          </p>
+        </div>
+        <div class="intro-div">
+          <img src="files/iconsHome/contente_manag.svg" />
+          <h3>Easy content management</h3>
+          <p>
+            Upload and organize your digital signage content with a
+            user-friendly interface.
+          </p>
+        </div>
+        <div class="intro-div">
+          <img src="files/iconsHome/scale.svg" />
+          <h3>Scalable</h3>
+          <p>
+            Grow the number of monitors that you handle without compromising
+            performance.
+          </p>
+        </div>
+        <div class="intro-div">
+          <img src="files/iconsHome/Open_Source.svg" />
+          <h3>Open Source</h3>
+          <p>
+            Open-source project to be used throughout all departments with
+            endless possibilities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-section">
+      <h2>Our Team</h2>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="https://avatars.githubusercontent.com/u/125307135?v=4"
+            alt="Imagem do Card 2"
+          />
+          <h3>Pedro Pinho</h3>
+          <p>Team manager</p>
+          <a
+            href="https://github.com/pdPinho"
+            class="github-link"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="https://avatars.githubusercontent.com/u/96839619?v=4"
+            alt="Imagem do Card 2"
+          />
+          <h3>Tomás Victal</h3>
+          <p>Frontend Developer</p>
+          <a
+            href="https://github.com/fungame2270"
+            class="github-link"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="https://avatars.githubusercontent.com/u/31666693?v=4"
+            alt="Imagem do Card 2"
+          />
+          <h3>João Andrade</h3>
+          <p>Media Player Developer</p>
+          <a
+            href="https://github.com/WildBunnie"
+            class="github-link"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="https://avatars.githubusercontent.com/u/98063728?v=4"
+            alt="Imagem do Card 1"
+          />
+          <h3>Diogo Silva</h3>
+          <p>Backend Developer</p>
+          <a
+            href="https://github.com/DiogoSilva1904"
+            class="github-link"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="https://avatars.githubusercontent.com/u/27146462?v=4"
+            alt="Imagem do Card 2"
+          />
+          <h3>Rafael Ferreira</h3>
+          <p>Backend Developer</p>
+          <a
+            href="https://github.com/Rafa548"
+            class="github-link"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="https://avatars.githubusercontent.com/u/97924338?v=4"
+            alt="Imagem do Card 2"
+          />
+          <h3>Miguel Cruzeiro</h3>
+          <p>Backend Developer</p>
+          <a
+            href="https://github.com/MiguelCruzeiro"
+            class="github-link"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+    <script>
+      document.querySelectorAll("[data-scroll]").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

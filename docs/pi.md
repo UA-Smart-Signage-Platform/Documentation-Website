@@ -1,6 +1,11 @@
-## Requirements
+# Requirements
 
-### Functional Requirements:
+## Inception Phase
+
+## Elaboration Phase
+
+
+### Functional Requirements
     Content Management:
         Ability to upload, manage and organize content.
         Support for various media formats (images, videos, audio, text).
@@ -21,7 +26,7 @@
         Reporting and analytics features to track content performance and screen status. (idk about this one).
 
 
-### Non-Functional Requirements:
+### Non-Functional Requirements
 	Performance:
     	Fast response times for content uploads and updates.
     	Smooth playback without buffering or lag.
@@ -49,6 +54,3 @@
     	Compliance with industry standards and protocols (HTML5 + RESTful APIs).
 
 ## Personas
-
-
-

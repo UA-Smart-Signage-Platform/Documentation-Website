@@ -1,16 +1,16 @@
 site_name: UASmart Signage Platform Docs
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_url: https://ua-smart-signage-platform.github.io/Documentation-Website/
 nav:
-  - Welcome: index.md
+  - Home: index.md
   - Documentation: documentation.md
-  - Project Info: project_info.md
-  - Milestones: milestones.md
+  - Guidelines: guidelines.md
+  - PI: pi.md
 theme:
   name: material
-  logo: files/logo.png
+  logo: files/logo.svg
+  custom_dir: docs/material
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.instant
     - navigation.tracking
     - toc.integrate
