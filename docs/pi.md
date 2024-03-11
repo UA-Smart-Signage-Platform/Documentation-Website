@@ -1,9 +1,17 @@
-# Requirements
+# Informatics Project
+
+## Project Proposal
+[link]
+
 
 ## Inception Phase
 
 ## Elaboration Phase
 
+### Context and State of The Art (SOA)
+In the context of digital signage Aveiro University (UA) has been using static display for videos and information in televisions across all monitors within the Department of Eletronics, Telecommunications and Informatics (DETI). No prior software has been developed in this regard within UA.
+
+The objective of this project is to build a system that will be used over the years and done in a way that can be improved and built on easily.
 
 ### Functional Requirements
     Content Management:
