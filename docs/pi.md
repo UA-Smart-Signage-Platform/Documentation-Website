@@ -66,12 +66,12 @@
 [link to new calendar]
 
 ### Inner Sprint (01/03/2024 - 08/03/2024)
-- Create github organization (and add tutor to it)
+- Create github organization (and add tutors to it)
 - Add tutors to discord and create respective channels
 - Start working on documentation
 - Research about different real life examples (in practice)
 - Organize group into sub-groups
-- document with link to the website
+- Document with link to the website
 - Create and propose architecture  **(Everyone)**
 - Requirements gathering, both functional and non-functional and personas with scenarios. **(Rafael, Miguel, Diogo)**
 - Create calendar **(Rafael, Miguel, Diogo)**
@@ -86,37 +86,25 @@ All items were completed within time.
 
 ### Comunication Plan
 
-**Communication Plan: Discord, Outlook, and Github**
-
-**Introduction**
-
-This document outlines a communication plan utilizing Discord, Outlook, and Github for effective collaboration within a team.
-
-**Communication Channels**
-
 The following table summarizes the recommended communication channel based on the purpose of communication:
 
-| Purpose | Channel | Icon                                                                    |
-|---|---|-------------------------------------------------------------------------|
-| Real-time discussions, quick updates, and informal communication. | Discord | ![](./files/iconsHome/GitHub-logo.png)                                  |
-| Formal communication, task delegation, and information sharing. | Outlook | <img src="./files/iconsHome/outlook-logo.jpeg" alt="Github Logos" width="30" /> 
-| Code collaboration, version control, and issue tracking. | Github | <img src="./files/iconsHome/GitHub-logo.png" alt="Github Logos" width="30" /> |
+| Purpose | Channel |
+|---|---------|
+| Real-time discussions, quick updates, task delegation and informal communication. | Discord |
+| Formal communication, and information sharing. | Outlook |
+| Code collaboration, version control, and issue tracking. | Github  |
 
 **Detailed Use Cases**
 
-* **Discord**
-	* **Image:** ![](https://logo.com/logos/discord-server-logo-maker)
+* **Discord** <img src="../files/iconsHome/discord-logo.png" width="30px" align="top">
 	* **Use Cases:**
 		* Team discussions for brainstorming, project updates, and ad-hoc questions.
+      	* Assigning tasks and tracking progress.
 		* Sharing quick wins, announcements, and real-time project status updates.
-* **Outlook**
-	* **Image:** ![](https://smallbusiness.chron.com/insert-company-logo-outlook-77277.html)
+* **Outlook** <img src="../files/iconsHome/outlook-logo.jpeg" width="30px" align="top">
 	* **Use Cases:**
-		* Sending official emails, meeting invites, and project reports.
-		* Assigning tasks and tracking progress through emails.
-		* Sharing important documents and resources.
-* **Github**
-	* **Image:** ![](https://github.com/logos)
+		* Sending official emails, meeting information, and project reports.
+* **Github** <img src="../files/iconsHome/GitHub-logo.png" width="30px" align="top">
 	* **Use Cases:**
 		* Hosting code repositories, managing changes, and tracking development progress.
 		* Reporting bugs, requesting features, and collaborating on code solutions.
@@ -149,7 +137,7 @@ The objective of this project is to build a system that will be used over the ye
 	Support for remote display management and configuration.
 
 **Integration**:
-	Integration with external data sources (RSS feeds, social media, APIs) for      dynamic content.
+	Integration with external data sources (RSS feeds, social media, APIs) for dynamic content.
 	Compatibility with various screen types.
 
 **User Interface**:
@@ -187,7 +175,7 @@ The objective of this project is to build a system that will be used over the ye
 
 ### Personas
 
-## Nuno - DETI Director
+#### Nuno - DETI Director
 
 **Name:** Nuno
 
@@ -213,7 +201,7 @@ The objective of this project is to build a system that will be used over the ye
 **Note:** Nuno's technical expertise lies primarily in administrative tasks. Aim to provide clear and concise instructions for content management.
 (maybe remove)
 
-## Sara - UI/UX Designer
+#### Sara - UI/UX Designer
 
 **Name:** Sara
 
@@ -233,7 +221,7 @@ The objective of this project is to build a system that will be used over the ye
 * Utilize her creativity to design unique templates for showcasing on designated displays.
 
 
-## Rodrigo - DETI Student
+#### Rodrigo - DETI Student
 
 **Name:** Rodrigo
 
