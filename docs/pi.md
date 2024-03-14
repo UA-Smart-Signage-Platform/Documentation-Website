@@ -240,3 +240,24 @@ The objective of this project is to build a system that will be used over the ye
 	* Extracurricular activities
 * Clear and organized presentation of information for staying updated on the go.
 
+
+### Use Cases
+![Use Cases](./files/useCasesDiag.png)
+
+
+### User Stories
+
+#### As an administrator:
+- **Edit Template Content:** I want to edit template content so that I can keep it up-to-date.
+- **Schedule Content:** I want to schedule specific content on digital screens at designated times and dates so that I can effectively manage content dissemination.
+- **Delete Templates:** I want to delete templates so that I can remove outdated or unused content.
+- **Edit Groups of Screens:** I want to edit groups of screens so that I can update the organization of presentations.
+
+#### As a designer:
+- **Create Templates:** I want to create templates so that I can define the structure and content of presentations.
+- **Choose Widgets:** I want to choose widgets for the template so that I can add interactive elements to presentations.
+
+#### As a viewer:
+- **View Screens:** I want to see screens so that I can stay updated with the latest content.
+- **View Scheduled Content:** I want to view content scheduled for specific times or dates so that I know what information is available when.
+
