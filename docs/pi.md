@@ -85,7 +85,43 @@ All items were completed within time.
 [M2: Elaboration Phase Presentation](/docs/files/M2_Presentation.pdf)
 
 ### Comunication Plan
-(...)
+
+**Communication Plan: Discord, Outlook, and Github**
+
+**Introduction**
+
+This document outlines a communication plan utilizing Discord, Outlook, and Github for effective collaboration within a team.
+
+**Communication Channels**
+
+The following table summarizes the recommended communication channel based on the purpose of communication:
+
+| Purpose | Channel | Icon                                                                    |
+|---|---|-------------------------------------------------------------------------|
+| Real-time discussions, quick updates, and informal communication. | Discord | ![](./files/iconsHome/GitHub-logo.png)                                  |
+| Formal communication, task delegation, and information sharing. | Outlook | <img src="./files/iconsHome/outlook-logo.jpeg" alt="Github Logos" width="30" /> 
+| Code collaboration, version control, and issue tracking. | Github | <img src="./files/iconsHome/GitHub-logo.png" alt="Github Logos" width="30" /> |
+
+**Detailed Use Cases**
+
+* **Discord**
+	* **Image:** ![](https://logo.com/logos/discord-server-logo-maker)
+	* **Use Cases:**
+		* Team discussions for brainstorming, project updates, and ad-hoc questions.
+		* Sharing quick wins, announcements, and real-time project status updates.
+* **Outlook**
+	* **Image:** ![](https://smallbusiness.chron.com/insert-company-logo-outlook-77277.html)
+	* **Use Cases:**
+		* Sending official emails, meeting invites, and project reports.
+		* Assigning tasks and tracking progress through emails.
+		* Sharing important documents and resources.
+* **Github**
+	* **Image:** ![](https://github.com/logos)
+	* **Use Cases:**
+		* Hosting code repositories, managing changes, and tracking development progress.
+		* Reporting bugs, requesting features, and collaborating on code solutions.
+		* Maintaining a central location for project files and documentation.
+
 ### Roles
 (...)
 
@@ -102,54 +138,117 @@ In the context of digital signage Aveiro University (UA) has been using static d
 The objective of this project is to build a system that will be used over the years and done in a way that can be improved and built on easily.
 
 ### Functional Requirements
-(...)
-    Content Management:
-        Ability to upload, manage and organize content.
-        Support for various media formats (images, videos, audio, text).
-        Content scheduling for specific times or events.
+**Content Management**:
+	Ability to upload, manage and organize content.
+	Support for various media formats (images, videos, audio, text).
+	Content scheduling for specific times or events.
 
-    Display Management:
-        Control over which screens display specific content.
-        Grouping of screens.
-        Support for remote display management and configuration.
+**Display Management**:
+	Control over which screens display specific content.
+	Grouping of screens.
+	Support for remote display management and configuration.
 
-    Integration:
-        Integration with external data sources (RSS feeds, social media, APIs) for      dynamic content.
-        Compatibility with various screen types.
+**Integration**:
+	Integration with external data sources (RSS feeds, social media, APIs) for      dynamic content.
+	Compatibility with various screen types.
 
-    User Interface:
-        Intuitive user interface for content management.
-        Role-based access control for different users (administrators, content managers, etc.).
-        Reporting and analytics features to track content performance and screen status. (idk about this one).
+**User Interface**:
+	Intuitive user interface for content management.
+	Role-based access control for different users (administrators, content managers, etc.).
+	Reporting and analytics features to track content performance and screen status. (idk about this one).
 
 
 ### Non-Functional Requirements
-(...)
-	Performance:
-    	Fast response times for content uploads and updates.
-    	Smooth playback without buffering or lag.
-    	Scalability to support a growing number of screens and users.
+**Performance**:
+	Fast response times for content uploads and updates.
+	Smooth playback without buffering or lag.
+	Scalability to support a growing number of screens and users.
 
-	Reliability:
-    	High availability to ensure screens are always operational.
-    	Fault tolerance to handle hardware failures or network issues.
-    	Disaster recovery capabilities to recover from system failures (backups).
+**Reliability**:
+	High availability to ensure screens are always operational.
+	Fault tolerance to handle hardware failures or network issues.
+	Disaster recovery capabilities to recover from system failures (backups).
 
-	Security:
-    	User authentication and authorization mechanisms.
-    	Encryption of data during transmission and storage.
-    	Protection against unauthorized access and tampering of content (jwt + smth).
+**Security**:
+	User authentication and authorization mechanisms.
+	Encryption of data during transmission and storage.
+	Protection against unauthorized access and tampering of content (jwt + smth).
 
-	Scalability:
-    		Ability to scale the system as the number of screens or content volume increases.
+**Scalability**:
+		Ability to scale the system as the number of screens or content volume increases.
 
-	Usability:
-    	Support for multiple languages (pt + en?).
-    	Responsive design for user interfaces across different devices (maybe).
+**Usability**:
+	Support for multiple languages (pt/en etc.).
+	Responsive design for user interfaces across different devices (maybe).
 
-	Compatibility:
-    	Compatibility with various operating systems and web browsers (raspi by construction should be always the same, react should be universal).
-    	Compliance with industry standards and protocols (HTML5 + RESTful APIs).
+**Compatibility**:
+	Compatibility with various operating systems and web browsers (raspi by construction should be always the same, react should be universal).
+	Compliance with industry standards and protocols (HTML5 + RESTful APIs).
 
 ### Personas
-(...)
+
+## Nuno - DETI Director
+
+**Name:** Nuno
+
+**Age:** 37
+
+**Occupation:** Technician
+
+**Background:**
+
+* Seasoned university employee with over 15 years of experience.
+* Recognized for administrative excellence and valued by colleagues.
+* Limited experience with design aspects.
+* Prefers user-friendly and straightforward technological platforms.
+
+**Goals:**
+
+* Effortlessly share pre-made content, including:
+	* News announcements
+	* Promotional videos
+	* Other relevant resources
+* Manage the displayed information through a simple and intuitive interface (add/remove screens).
+
+**Note:** Nuno's technical expertise lies primarily in administrative tasks. Aim to provide clear and concise instructions for content management.
+(maybe remove)
+
+## Sara - UI/UX Designer
+
+**Name:** Sara
+
+**Occupation:** Designer
+
+**Age:** 30
+
+**Profile:**
+
+* **Software:** Prefers feature-rich and customizable tools to unleash her creative potential.
+* **Workflow:** Values efficient tools that streamline design processes and enable quick production of high-quality content.
+* **Design Approach:** Enjoys experimentation with various design elements and actively seeks new features and functionalities.
+
+**Goals:**
+
+* Create engaging content specifically designed for display on DETI screens.
+* Utilize her creativity to design unique templates for showcasing on designated displays.
+
+
+## Rodrigo - DETI Student
+
+**Name:** Rodrigo
+
+**Age:** 19
+
+**Background:**
+
+* Enthusiastic and curious student with a thirst for new knowledge and experiences.
+* Actively seeks out relevant information related to academics, cultural events, and networking opportunities.
+
+**Goals:**
+
+* Easy and swift access to crucial information concerning:
+	* Coursework
+	* Academic events
+	* Extracurricular activities
+* Clear and organized presentation of information for staying updated on the go.
+
