@@ -1,19 +1,108 @@
 # Informatics Project
 
 ## Project Proposal
-[link]
-
+[A Digital Signage System for DETI](/docs/files/Project_Proposal.pdf)
 
 ## Inception Phase
+[M1: Inception Phase Presentation](/docs/files/M1_Presentation.pdf)
+
+### Context
+(...)
+
+### Problem
+#### Integration with the university’s IDP
+(...)
+#### Test driven development implementation
+(...)
+#### User friendly Content Creation Tool (CCT)
+(...)
+#### Good documentation and installation guides
+(...)
+#### Scalability and Performance
+(...)
+
+### Goals
+#### Manage electronic displays remotely.
+(...)
+#### Have a Media Player that allows for displaying content and receive real time updates from different sources.
+(...)
+#### Have a Content Management System to manage all the screens and allow scheduling and timing of content playback.
+(...)
+#### Create a Content Creation Tool that assists the users designing the templates.
+(...)
+
+### Expected Results
+#### Minimal Viable Product (MVP) of a Digital Signage System
+(...)
+#### User-friendly Content Management System (CMS) and Content Creation Tool (CCT)
+(...)
+#### Integration with the university’s IDP
+(...)
+#### OS image that auto-boots into the Media Player upon startup
+(...)
+#### All the code should include tests and comments
+(...)
+#### Clear documentation and contribution guidelines
+(...)
+
+### Task list
+#### Raspberry pi configuration
+(...)
+#### Template design/requirements
+(...)
+#### Architecture development / System design and planning
+(...)
+#### Content Distribution Strategy
+(...)
+#### Communication plan (documentation)
+(...)
+#### Tests (User acceptance and System)
+(...)
+#### User friendly CCT
+(...)
+
+### Calendar
+[link to presentation calendar]
+[link to new calendar]
+
+### Inner Sprint (01/03/2024 - 08/03/2024)
+- Create github organization (and add tutor to it)
+- Add tutors to discord and create respective channels
+- Start working on documentation
+- Research about different real life examples (in practice)
+- Organize group into sub-groups
+- document with link to the website
+- Create and propose architecture  **(Everyone)**
+- Requirements gathering, both functional and non-functional and personas with scenarios. **(Rafael, Miguel, Diogo)**
+- Create calendar **(Rafael, Miguel, Diogo)**
+- Figma **(Tomas, Pedro)**
+- MP mockup **(Joao, Tomas)**
+
+#### Sprint results
+All items were completed within time. 
 
 ## Elaboration Phase
+[M2: Elaboration Phase Presentation](/docs/files/M2_Presentation.pdf)
 
+### Comunication Plan
+(...)
+### Roles
+(...)
+
+### Organization
+[UA Smart Signage](https://github.com/UA-Smart-Signage-Platform)
+#### Repositories
+- [Documentation Website](https://github.com/UA-Smart-Signage-Platform/Documentation-Website)
+- [Content Manager System and Content Creator Tool](https://github.com/UA-Smart-Signage-Platform/Content-Manager-System-and-Content-Creator-Tool)
+- [Media Player](https://github.com/UA-Smart-Signage-Platform/Media-Player)
 ### Context and State of The Art (SOA)
+(...)
 In the context of digital signage Aveiro University (UA) has been using static display for videos and information in televisions across all monitors within the Department of Eletronics, Telecommunications and Informatics (DETI). No prior software has been developed in this regard within UA.
 
 The objective of this project is to build a system that will be used over the years and done in a way that can be improved and built on easily.
 
 ### Functional Requirements
+(...)
     Content Management:
         Ability to upload, manage and organize content.
         Support for various media formats (images, videos, audio, text).
@@ -35,6 +124,7 @@ The objective of this project is to build a system that will be used over the ye
 
 
 ### Non-Functional Requirements
+(...)
 	Performance:
     	Fast response times for content uploads and updates.
     	Smooth playback without buffering or lag.
@@ -61,4 +151,5 @@ The objective of this project is to build a system that will be used over the ye
     	Compatibility with various operating systems and web browsers (raspi by construction should be always the same, react should be universal).
     	Compliance with industry standards and protocols (HTML5 + RESTful APIs).
 
-## Personas
+### Personas
+(...)

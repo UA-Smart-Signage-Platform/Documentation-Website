@@ -1,5 +1,5 @@
 ## About the project
-UA Smart Signage, an open source digital display software, offers **customizable** templates, advanced content **scheduling** and an array of incremental features. 
+UA Smart Signage, an open source digital signage display software, offers **customizable** templates, advanced content **scheduling** and an array of incremental features. 
 Its **user-friendly** interfaces ensure a seamless experience for both tech-savvy individuals and those with limited technical knowledge, delivering a robust **UX** for all users.
 
 ### Architecture
@@ -7,7 +7,8 @@ Its **user-friendly** interfaces ensure a seamless experience for both tech-savv
 
 ### Tech Stack
 #### Frontend
-Our frontend is designed for two users - the manager (admin) and the designer (template creator).
+Designed for two users - the manager (admin) and the designer (template creator).
+The user interface in
 (...)
 
 tools used
@@ -22,11 +23,15 @@ tools used
 
 - zustand
 ##### React
+(...)
 ##### Tailwind
+(...)
 ##### React Icons
+React Icons is (...)
 ##### Axios
+Axios is (...)
 ##### Zustand
-
+Zustand is (...)
 
 #### Backend
 - mongo (...)
@@ -34,11 +39,25 @@ tools used
 - mosquitto (...)
 
 #### Deployment
-To provide an easy-to-start implementation, we are using docker-compose to facilitate initialization and development.
+To provide an easy-to-start implementation, we are using docker to facilitate initialization and development.
 
 ## Getting started
+### Requirements
+- Computer to host the server
+- Computer to receieve information and host software (Media Player)
+- Internet connection
+- Computer to host the user interface for the users
+- Monitor to display information
 ### Setup
-To start 
+#### Setting up the hosting server
+(...)
+#### Setting up the user interface
+(...)
+#### Setting up the monitor for display 
+Make sure that you have connected your monitor to a (mini) computer and install the following OS image on it.
+[OS image link]
+To install the OS image (...)
+To address some internal problems with UA you should connect to (...)
 
 ## Included material
 

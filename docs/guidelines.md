@@ -1,7 +1,7 @@
 ## Contributing
 UA Smart Signage is an actively maintained and constantly evolving project with very big ambitions. In order to keep things rolling smoothly, we decided to create some guidelines to help newcomers as well as veterans.
 
-If you have a question, want to suggest a new feature, fix a bug or even work on a new functionality, then hopefully the following will have what you need.
+If you have questions, want to suggest a new feature, fix a bug or even work on a new functionality, then hopefully the following will have what you need.
 
 ### How to contribute
 (...)
