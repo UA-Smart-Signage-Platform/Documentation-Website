@@ -1,10 +1,10 @@
 # Informatics Project
 
 ## Project Proposal
-[A Digital Signage System for DETI](/docs/files/Project_Proposal.pdf)
+* [A Digital Signage System for DETI](/docs/files/Project_Proposal.pdf)
 
 ## Inception Phase
-[M1: Inception Phase Presentation](/docs/files/M1_Presentation.pdf)
+* [M1: Inception Phase Presentation](/docs/files/M1_Presentation.pdf)
 
 ### Context
 (...)
@@ -78,11 +78,16 @@
 - Figma **(Tomas, Pedro)**
 - MP mockup **(Joao, Tomas)**
 
-#### Sprint results
-All items were completed within time. 
+**Sprint results**
+
+* All items were completed within time. 
+
+### Templates
+* [Media Player Display](https://www.figma.com/file/nFPoHZyNCIRHpyrcfsxKiu/Media-Player-Templates)
+
 
 ## Elaboration Phase
-[M2: Elaboration Phase Presentation](/docs/files/M2_Presentation.pdf)
+* [M2: Elaboration Phase Presentation](/docs/files/M2_Presentation.pdf)
 
 ### Comunication Plan
 
@@ -110,40 +115,39 @@ The following table summarizes the recommended communication channel based on th
 		* Reporting bugs, requesting features, and collaborating on code solutions.
 		* Maintaining a central location for project files and documentation.
 
-### Roles
-(...)
-
 ### Organization
 [UA Smart Signage](https://github.com/UA-Smart-Signage-Platform)
-#### Repositories
-- [Documentation Website](https://github.com/UA-Smart-Signage-Platform/Documentation-Website)
-- [Content Manager System and Content Creator Tool](https://github.com/UA-Smart-Signage-Platform/Content-Manager-System-and-Content-Creator-Tool)
-- [Media Player](https://github.com/UA-Smart-Signage-Platform/Media-Player)
+
+* **Repositories**
+	* [Documentation Website](https://github.com/UA-Smart-Signage-Platform/Documentation-Website)
+	* [Content Manager System and Content Creator Tool](https://github.com/UA-Smart-Signage-Platform/Content-Manager-System-and-Content-Creator-Tool)
+	* [Media Player](https://github.com/UA-Smart-Signage-Platform/Media-Player)
 ### Context and State of The Art (SOA)
-(...)
 In the context of digital signage Aveiro University (UA) has been using static display for videos and information in televisions across all monitors within the Department of Eletronics, Telecommunications and Informatics (DETI). No prior software has been developed in this regard within UA.
 
-The objective of this project is to build a system that will be used over the years and done in a way that can be improved and built on easily.
+To display videos, DETI is currently using a Media Player on a windows machine to display them. Due to its limitations we are building a software from the ground with a flexible structure, schedule functionality and dynamic information display.
+
+The project aims to build a system that will be used over the years and done in a way that can be improved and built on easily.
 
 ### Functional Requirements
-**Content Management**:
-	Ability to upload, manage and organize content.
-	Support for various media formats (images, videos, audio, text).
-	Content scheduling for specific times or events.
+* **Content Management**:
+	* Ability to upload, manage and organize content.
+	* Support for various media formats (images, videos, text).
+	* Content scheduling for specific times or events.
 
-**Display Management**:
-	Control over which screens display specific content.
-	Grouping of screens.
-	Support for remote display management and configuration.
+* **Display Management**:
+	* Control over which screens display specific content.
+	* Grouping of screens.
+	* Support for remote display management and configuration.
 
-**Integration**:
-	Integration with external data sources (RSS feeds, social media, APIs) for dynamic content.
-	Compatibility with various screen types.
+* **Integration**:
+	* Integration with external data sources (RSS feeds, social media, APIs) for dynamic content.
+	* Compatibility with various screen types.
 
-**User Interface**:
-	Intuitive user interface for content management.
-	Role-based access control for different users (administrators, content managers, etc.).
-	Reporting and analytics features to track content performance and screen status. (idk about this one).
+* **User Interface**:
+	* Intuitive user interface for content management.
+	* Role-based access control for different users (administrators, content managers, etc.).
+	* Reporting and analytics features to track content performance and screen status. (idk about this one).
 
 
 ### Non-Functional Requirements
@@ -261,3 +265,6 @@ The objective of this project is to build a system that will be used over the ye
 - **View Screens:** I want to see screens so that I can stay updated with the latest content.
 - **View Scheduled Content:** I want to view content scheduled for specific times or dates so that I know what information is available when.
 
+### Templates
+* [Content Management System / Content Creator Tool](https://www.figma.com/file/y6D627skVNvPySSFYa8zkI/CMS-%2F-CCT-Templates)
+* [Documentation Website](https://www.figma.com/file/OYqGSLiljrJLuEHH0NNRfO/Documentation-Templates)
