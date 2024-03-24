@@ -23,7 +23,12 @@ Zustand is a state manager with a hook-based API that allows for the management 
 React Router enables client-side routing, providing a more responsive and speedy experience for users.
 
 #### Backend
-- mongo (...)
+##### Spring Boot
+The backend will utilize Spring Boot for its effortless integration with various databases and robust security features. Furthermore, Spring Boot simplifies the testing process, ensuring reliable software quality.
+##### Mosquito(n sei se querem falar 2 vezes da mesma cena)
+lol
+##### 
+
 - 
 #### Media Player
 - mosquitto (...)

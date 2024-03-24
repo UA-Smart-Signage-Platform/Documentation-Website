@@ -101,15 +101,15 @@ The following table summarizes the recommended communication channel based on th
 
 **Detailed Use Cases**
 
-* **Discord** <img src="../files/iconsHome/discord-logo.png" width="30px" align="top">
+* **Discord** <img src="../files/iconsHome/discord.png" width="30px" align="top">
 	* **Use Cases:**
 		* Team discussions for brainstorming, project updates, and ad-hoc questions.
       	* Assigning tasks and tracking progress.
 		* Sharing quick wins, announcements, and real-time project status updates.
-* **Outlook** <img src="../files/iconsHome/outlook-logo.jpeg" width="30px" align="top">
+* **Outlook** <img src="../files/iconsHome/outlook.png" width="45px" align="top">
 	* **Use Cases:**
 		* Sending official emails, meeting information, and project reports.
-* **Github** <img src="../files/iconsHome/GitHub-logo.png" width="30px" align="top">
+* **Github** <img src="../files/iconsHome/github.png" width="30px" align="top">
 	* **Use Cases:**
 		* Hosting code repositories, managing changes, and tracking development progress.
 		* Reporting bugs, requesting features, and collaborating on code solutions.
