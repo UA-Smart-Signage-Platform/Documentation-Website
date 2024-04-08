@@ -101,10 +101,9 @@ Template Message (sent when we want to change what a monitor is displaying)
 topic: "group/x" // sent for a specific group
 payload: 
 {
-    "method":"GROUP",
-    "group":"",    // group that the monitor was assigned to
+    "method":"TEMPLATE",
     "html": "",    // html to be displayed
-    "files": [],   // url for where to download the necessary files
+    "files": [],   // urls for where to download the necessary files
     "schedule": [] // schedule rules
 }
 ```
