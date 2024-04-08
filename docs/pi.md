@@ -1,82 +1,80 @@
 # Informatics Project
 
-## Project Proposal
-* [A Digital Signage System for DETI](/docs/files/Project_Proposal.pdf)
+## **Project Proposal**
+* [A Digital Signage System for DETI](files/Project_Proposal.pdf)
 
-## Inception Phase
-* [M1: Inception Phase Presentation](/docs/files/M1_Presentation.pdf)
+## **Inception Phase**
+* [M1: Inception Phase Presentation](files/M1_Presentation.pdf)
 
-### Context
-(...)
+### **Context**
+As technology evolves, so does our mode of communication. In the past, a simple piece of paper with a few words could effectively convey an idea. However, in today's fast-paced environment, things change rapidly. Ideas evolve, new developments arise, and the need to reach millions of people simultaneously may arise. Traditional signage is no longer the most efficient method of disseminating information; this is where digital signage steps in.
 
-### Problem
-#### Integration with the university’s IDP
-(...)
-#### Test driven development implementation
-(...)
-#### User friendly Content Creation Tool (CCT)
-(...)
-#### Good documentation and installation guides
-(...)
-#### Scalability and Performance
-(...)
+No longer do we need to manually update room schedules or leave a paper notice indicating an ongoing meeting. No more basic videos with manual set up required. Digital signage handles these tasks seamlessly.
 
-### Goals
-#### Manage electronic displays remotely.
-(...)
-#### Have a Media Player that allows for displaying content and receive real time updates from different sources.
-(...)
-#### Have a Content Management System to manage all the screens and allow scheduling and timing of content playback.
-(...)
-#### Create a Content Creation Tool that assists the users designing the templates.
-(...)
+### **Problem**
+#### **Integration with the university’s IDP**
+Incorporating university's IDP in our software is a key requirement for the final product. While implementing login based on the university's IDP might appear straightforward, it is likely to pose complexities given our unfamiliarity with this field. Moreover, such integration typically involves a time-consuming acceptance process, adding to its difficulty.
+#### **Test driven development implementation**
+To mitigate future errors and ensure a seamless software development process, we will implement tests for our backend. These tests will be integrated into GitHub Actions, allowing us to identify errors before they are committed to more critical branches, thus enhancing the reliability of our codebase.
+#### **User friendly Content Creation Tool (CCT)**
+Designing a user-friendly interface is a complex endeavor. Developing user-friendly software presents an even greater challenge, as it necessitates concealing numerous complex operations. Crafting a user-friendly interface and software that empowers users to create their own templates will undoubtedly be a formidable task.
+#### **Good documentation and installation guides**
+Given that this project is intended for continuous development and enhancement over the years, it is imperative to establish comprehensive and dedicated documentation, including clear guidelines for both usage and installation.
+#### **Scalability and Performance**
+At the outset, we will operate with only a few computers, rendering scalability and performance less pressing concerns. Nevertheless, considering the ultimate goal of deploying this project university-wide, it is crucial to anticipate and strategize the design and development of our system in a scalable manner without sacrificing performance or necessitating an excessively powerful server.
 
-### Expected Results
-#### Minimal Viable Product (MVP) of a Digital Signage System
-(...)
-#### User-friendly Content Management System (CMS) and Content Creation Tool (CCT)
-(...)
-#### Integration with the university’s IDP
-(...)
-#### OS image that auto-boots into the Media Player upon startup
-(...)
-#### All the code should include tests and comments
-(...)
-#### Clear documentation and contribution guidelines
-(...)
+### **Goals**
+#### **Manage electronic displays remotely.**
+Our system must be a centralized system with distributed components.
 
-### Task list
-#### Raspberry pi configuration
-(...)
-#### Template design/requirements
-(...)
-#### Architecture development / System design and planning
-(...)
-#### Content Distribution Strategy
-(...)
-#### Communication plan (documentation)
-(...)
-#### Tests (User acceptance and System)
-(...)
-#### User friendly CCT
-(...)
+- Centralized System: The main server with the database and software acts as a central hub where data is stored and processed. This centralization provides a single point of control and management for the system.
 
-### Calendar
-[link to presentation calendar]
-[link to new calendar]
+- Distributed Components: Information is transmitted to Raspberry Pis via the network, facilitated by a broker. These Raspberry Pis function as endpoints, receiving and requesting data from the central server. They are capable of performing additional processing or executing actions based on the received information.
+#### **Have a Media Player that allows for displaying content and receive real time updates from different sources.**
+We are required to implement a Media Player capable of seamlessly displaying content and receiving real-time updates from diverse sources.
+#### **Have a Content Management System to manage all the screens and allow scheduling and timing of content playback.**
+Develop a robust Content Management System (CMS) empowering administrators to monitor screen statuses and logs, while providing users with the capability to schedule content playback at specific times and chosen templates.
+#### **Create a Content Creation Tool that assists the users designing the templates.**
+As mentioned earlier, we require user-friendly software that effortlessly provides all the necessary tools for creating and manipulating templates.
 
-### Inner Sprint (01/03/2024 - 08/03/2024)
+### **Expected Results**
+#### **Minimal Viable Product (MVP) of a Digital Signage System**
+The functionalities that are expected from us are a software that allow for monitoring, adding, manipulating and configure display of monitors. IDP integration and CCT is a challenge, but doable ones.
+#### **User-friendly Content Management System (CMS) and Content Creation Tool (CCT)**
+Both a user-friendly CMS and CCT is expected from us by the end of the project. These tools have to be built in a way that provide scalability and easy understanding.
+#### **Integration with the university’s IDP**
+Our project requires login to be based on university's IDP.
+#### **OS image that auto-boots into the Media Player upon startup**
+We need an OS image programmed to boot our software automatically, initiating communication with our backend upon network connection.
+#### **All the code should include tests and comments**
+Every piece of code must be accompanied by thorough testing suites and if a function's name lacks clarity, ensure comprehensive testing and comments are provided to elucidate its purpose and functionality.
+#### **Clear documentation and contribution guidelines**
+Due to its open-source nature, ensure transparent and accessible documentation along with contribution guidelines, allowing next students or professionals to have an easy time to build upon our software.
+
+### **Task list**
+- Raspberry pi configuration
+- Template design/requirements
+- Architecture development / System design and planning
+- Content Distribution Strategy
+- Communication plan (documentation)
+- Tests (User acceptance and System)
+- User friendly CCT
+
+### **Calendar**
+Our initial calendar can be found in our M1 presentation; however, it provided only a broad overview of the problem. Therefore, we do not consider it as the definitive calendar. Instead, the following [Calendar](files/calendar.png) is more reliable.
+
+### **Inner Sprint (01/03/2024 - 08/03/2024)**
 - Create github organization (and add tutors to it)
 - Add tutors to discord and create respective channels
 - Start working on documentation
 - Research about different real life examples (in practice)
 - Organize group into sub-groups
 - Document with link to the website
-- Create and propose architecture  **(Everyone)**
-- Requirements gathering, both functional and non-functional and personas with scenarios. **(Rafael, Miguel, Diogo)**
-- Create calendar **(Rafael, Miguel, Diogo)**
-- Figma **(Tomas, Pedro)**
-- MP mockup **(Joao, Tomas)**
+- Create and propose architecture 
+- Requirements gathering, both functional and non-functional and personas with scenarios.
+- Create calendar
+- Figma
+- MP mockup
 
 **Sprint results**
 
@@ -87,7 +85,7 @@
 
 
 ## Elaboration Phase
-* [M2: Elaboration Phase Presentation](/docs/files/M2_Presentation.pdf)
+* [M2: Elaboration Phase Presentation](files/M2_Presentation.pdf)
 
 ### Comunication Plan
 
@@ -115,95 +113,102 @@ The following table summarizes the recommended communication channel based on th
 		* Reporting bugs, requesting features, and collaborating on code solutions.
 		* Maintaining a central location for project files and documentation.
 
-### Organization
+### **Organization**
 [UA Smart Signage](https://github.com/UA-Smart-Signage-Platform)
 
-* **Repositories**
-	* [Documentation Website](https://github.com/UA-Smart-Signage-Platform/Documentation-Website)
-	* [Content Manager System and Content Creator Tool](https://github.com/UA-Smart-Signage-Platform/Content-Manager-System-and-Content-Creator-Tool)
-	* [Media Player](https://github.com/UA-Smart-Signage-Platform/Media-Player)
-### Context and State of The Art (SOA)
+**Repositories**
+
+- [Documentation Website](https://github.com/UA-Smart-Signage-Platform/Documentation-Website)
+- [Content Manager System and Content Creator Tool](https://github.com/UA-Smart-Signage-Platform/Content-Manager-System-and-Content-Creator-Tool)
+- [Media Player](https://github.com/UA-Smart-Signage-Platform/Media-Player)
+### **Context and State of The Art (SOA)**
 In the context of digital signage Aveiro University (UA) has been using static display for videos and information in televisions across all monitors within the Department of Eletronics, Telecommunications and Informatics (DETI). No prior software has been developed in this regard within UA.
 
 To display videos, DETI is currently using a Media Player on a windows machine to display them. Due to its limitations we are building a software from the ground with a flexible structure, schedule functionality and dynamic information display.
 
 The project aims to build a system that will be used over the years and done in a way that can be improved and built on easily.
 
-### Functional Requirements
-* **Content Management**:
-	* Ability to upload, manage and organize content.
-	* Support for various media formats (images, videos, text).
-	* Content scheduling for specific times or events.
+### **Functional Requirements**
+**Content Management**:
 
-* **Display Management**:
-	* Control over which screens display specific content.
-	* Grouping of screens.
-	* Support for remote display management and configuration.
+- Ability to upload, manage and organize content.
+- Support for various media formats (images, videos, text).
+- Content scheduling for specific times or events.
 
-* **Integration**:
-	* Integration with external data sources (RSS feeds, social media, APIs) for dynamic content.
-	* Compatibility with various screen types.
+**Display Management**:
 
-* **User Interface**:
-	* Intuitive user interface for content management.
-	* Role-based access control for different users (administrators, content managers, etc.).
-	* Reporting and analytics features to track content performance and screen status. (idk about this one).
+- Control over which screens display specific content.
+- Grouping of screens.
+- Support for remote display management and configuration.
+
+**Integration**:
+
+- Integration with external data sources (RSS feeds, social media, APIs) for dynamic content.
+- Compatibility with various screen types.
+
+**User Interface**:
+
+- Intuitive user interface for content management.
+- Role-based access control for different users (administrators, content managers, etc.).
+- Reporting and analytics features to track content performance and screen status.
 
 
-### Non-Functional Requirements
+### **Non-Functional Requirements**
 **Performance**:
-	Fast response times for content uploads and updates.
-	Smooth playback without buffering or lag.
-	Scalability to support a growing number of screens and users.
+
+- Fast response times for content uploads and updates.
+- Smooth playback without buffering or lag.
+- Scalability to support a growing number of screens and users.
 
 **Reliability**:
-	High availability to ensure screens are always operational.
-	Fault tolerance to handle hardware failures or network issues.
-	Disaster recovery capabilities to recover from system failures (backups).
+
+- High availability to ensure screens are always operational.
+- Fault tolerance to handle hardware failures or network issues.
+- Disaster recovery capabilities to recover from system failures (backups).
 
 **Security**:
-	User authentication and authorization mechanisms.
-	Encryption of data during transmission and storage.
-	Protection against unauthorized access and tampering of content (jwt + smth).
+
+- User authentication and authorization mechanisms.
+- Encryption of data during transmission and storage.
+- Protection against unauthorized access and tampering of content.
 
 **Scalability**:
-		Ability to scale the system as the number of screens or content volume increases.
+
+- Ability to scale the system as the number of screens or content volume increases.
 
 **Usability**:
-	Support for multiple languages (pt/en etc.).
-	Responsive design for user interfaces across different devices (maybe).
+
+- Support for localization.
 
 **Compatibility**:
-	Compatibility with various operating systems and web browsers (raspi by construction should be always the same, react should be universal).
-	Compliance with industry standards and protocols (HTML5 + RESTful APIs).
 
-### Personas
+- Compatibility with various operating systems and web browsers (raspi by construction should be always the same, react should be universal).
+- Compliance with industry standards and protocols (HTML5 + RESTful APIs).
 
-#### Nuno - DETI Director
+### **Personas**
 
-**Name:** Nuno
+**Nuno - DETI Director**
 
-**Age:** 37
+- Name: Nuno
+- Age: 37
+- Occupation: Technician
 
-**Occupation:** Technician
+Background:
 
-**Background:**
+- Seasoned university employee with over 15 years of experience.
+- Recognized for administrative excellence and valued by colleagues.
+- Limited experience with design aspects.
+- Prefers user-friendly and straightforward technological platforms.
 
-* Seasoned university employee with over 15 years of experience.
-* Recognized for administrative excellence and valued by colleagues.
-* Limited experience with design aspects.
-* Prefers user-friendly and straightforward technological platforms.
+Goals:
 
-**Goals:**
+- Effortlessly share pre-made content, including:
+	- News announcements
+	- Promotional videos
+	- Other relevant resources
+- Manage the displayed information through a simple and intuitive interface (add/remove screens).
 
-* Effortlessly share pre-made content, including:
-	* News announcements
-	* Promotional videos
-	* Other relevant resources
-* Manage the displayed information through a simple and intuitive interface (add/remove screens).
-
-**Note:** Nuno's technical expertise lies primarily in administrative tasks. Aim to provide clear and concise instructions for content management.
-(maybe remove)
+*Note: Nuno's technical expertise lies primarily in administrative tasks. Aim to provide clear and concise instructions for content management.*
 
 #### Sara - UI/UX Designer
 
