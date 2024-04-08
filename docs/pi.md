@@ -63,23 +63,6 @@ Due to its open-source nature, ensure transparent and accessible documentation a
 ### **Calendar**
 Our initial calendar can be found in our M1 presentation; however, it provided only a broad overview of the problem. Therefore, we do not consider it as the definitive calendar. Instead, the following [Calendar](files/calendar.png) is more reliable.
 
-### **Inner Sprint (01/03/2024 - 08/03/2024)**
-- Create github organization (and add tutors to it)
-- Add tutors to discord and create respective channels
-- Start working on documentation
-- Research about different real life examples (in practice)
-- Organize group into sub-groups
-- Document with link to the website
-- Create and propose architecture 
-- Requirements gathering, both functional and non-functional and personas with scenarios.
-- Create calendar
-- Figma
-- MP mockup
-
-**Sprint results**
-
-* All items were completed within time. 
-
 ### Templates
 * [Media Player Display](https://www.figma.com/file/nFPoHZyNCIRHpyrcfsxKiu/Media-Player-Templates)
 
@@ -210,51 +193,49 @@ Goals:
 
 *Note: Nuno's technical expertise lies primarily in administrative tasks. Aim to provide clear and concise instructions for content management.*
 
-#### Sara - UI/UX Designer
+**Sara - UI/UX Designer**
 
-**Name:** Sara
-
-**Occupation:** Designer
-
-**Age:** 30
-
-**Profile:**
-
-* **Software:** Prefers feature-rich and customizable tools to unleash her creative potential.
-* **Workflow:** Values efficient tools that streamline design processes and enable quick production of high-quality content.
-* **Design Approach:** Enjoys experimentation with various design elements and actively seeks new features and functionalities.
-
-**Goals:**
-
-* Create engaging content specifically designed for display on DETI screens.
-* Utilize her creativity to design unique templates for showcasing on designated displays.
+- Name: Sara
+- Age: 30
+- Occupation: Designer
 
 
-#### Rodrigo - DETI Student
+Profile:
 
-**Name:** Rodrigo
+- Software: Prefers feature-rich and customizable tools to unleash her creative potential.
+- Workflow: Values efficient tools that streamline design processes and enable quick production of high-quality content.
+- Design Approach: Enjoys experimentation with various design elements and actively seeks new features and functionalities.
 
-**Age:** 19
+Goals:
 
-**Background:**
-
-* Enthusiastic and curious student with a thirst for new knowledge and experiences.
-* Actively seeks out relevant information related to academics, cultural events, and networking opportunities.
-
-**Goals:**
-
-* Easy and swift access to crucial information concerning:
-	* Coursework
-	* Academic events
-	* Extracurricular activities
-* Clear and organized presentation of information for staying updated on the go.
+- Create engaging content specifically designed for display on DETI screens.
+- Utilize her creativity to design unique templates for showcasing on designated displays.
 
 
-### Use Cases
+**Rodrigo - DETI Student**
+
+- Name: Rodrigo
+- Age: 19
+
+Background:
+
+- Enthusiastic and curious student with a thirst for new knowledge and experiences.
+- Actively seeks out relevant information related to academics, cultural events, and networking opportunities.
+
+Goals:
+
+- Easy and swift access to crucial information concerning:
+	- Coursework
+	- Academic events
+	- Extracurricular activities
+- Clear and organized presentation of information for staying updated on the go.
+
+
+### **Use Cases**
 ![Use Cases](./files/useCasesDiag.png)
 
 
-### User Stories
+### **User Stories**
 
 #### As an administrator:
 - **Edit Template Content:** I want to edit template content so that I can keep it up-to-date.
@@ -270,6 +251,185 @@ Goals:
 - **View Screens:** I want to see screens so that I can stay updated with the latest content.
 - **View Scheduled Content:** I want to view content scheduled for specific times or dates so that I know what information is available when.
 
-### Templates
-* [Content Management System / Content Creator Tool](https://www.figma.com/file/y6D627skVNvPySSFYa8zkI/CMS-%2F-CCT-Templates)
-* [Documentation Website](https://www.figma.com/file/OYqGSLiljrJLuEHH0NNRfO/Documentation-Templates)
+### **Templates**
+- [Content Management System / Content Creator Tool](https://www.figma.com/file/y6D627skVNvPySSFYa8zkI/CMS-%2F-CCT-Templates)
+- [Documentation Website](https://www.figma.com/file/OYqGSLiljrJLuEHH0NNRfO/Documentation-Templates)
+
+// TODO (Add certain topics related to M2, refine user stories)
+
+## **Checkpoint 1**
+* [Checkpoint 1 Presentation](files/Checkpoint1_Presentation.pdf)
+
+// TODO (Add user flow, etc.)
+
+## **Prototype Phase**
+* [M3: Prototype Phase Presentation](files/M3_Presentation.pdf)
+
+// TODO
+
+
+## **Sprints**
+### 01/03/2024 - 08/03/2024
+**Summary**
+
+- Create github organization (and add tutors to it)
+- Add tutors to discord and create respective channels
+- Start working on documentation
+- Research about different real life examples (in practice)
+- Organize group into sub-groups
+- Document with link to the website
+- Create and propose architecture 
+- Requirements gathering, both functional and non-functional and personas with scenarios.
+- Create calendar
+- Figma
+- MP mockup
+
+**Detailed version**
+As this was the first week, we did not think about providing a detailed report.
+
+**Sprint results**
+
+* All items were completed within time. 
+
+
+### 09/03/2024 - 19/03/2024
+**Summary**
+
+Frontend
+- ~~Create CMS in figma~~
+- ~~Initialize React's basic code~~
+- ~~Docker configuration~~
+- ~~Initialize documentation page~~
+**Backend**
+- ~~Basic endpoints initialization~~
+- ~~Database entities~~
+- ~~Docker configuration~~
+**Media Player**
+- ~~Flask request API~~
+- ~~Mock up of widget converter / setting up format for widgets and templates~~
+**Extra**
+- ~~Create dedicated repos and backlogs~~
+- ~~M2 Presentation~~
+- ~~Domain Model~~
+- ~~User Stories~~
+
+**Detailed version**
+## Frontend
+ - Create CMS in figma (before client's feedback)
+  - Create all pages related to it 
+- Finish figma CMS UI (after client's feedback)
+ - Added buttons for visibility in some areas (client's request)
+ - Created scheduler page
+ - Created pending monitors pop up
+- Initialize frontend code
+ - Started Component side bar
+ - Started Component page title
+- Initialize React's basic code
+- Docker configuration
+ - Created docker for react and docker-compose for the entire application (skeleton only)
+## Backend
+- Docker configuration
+ - Created docker and docker-compose for spring boot
+ - Created docker for databases (currently missing env file to change password and db name)
+- Created Spring models
+ - File and content in progress
+ - Currently missing user model
+- Created basic Endpoints functionality
+- Created some Tests
+ - Screen and monitor group are done
+ - Template in progress
+## Media Player
+- Basic Implementation of MQTT client
+- Started Logging
+- Proof of Concept of Playing Multiple Videos (playlist)
+- Mockup of HTML Generator from Template
+## Extra
+- Tweak architecture
+ - Removed unnecessary database (mongoDB)
+ - Small tweaks have been done to match our needs
+- User flow diagram
+ - Created flow diagrams for both users (Admin and User)
+- Start report
+ - Report's initial skeleton is done
+- Create database model
+- Created user stories
+- Initialize documentation page
+ - Customized landing page
+ - Create documentation page structure
+ - Added information to documentation
+ - Added basic guidelines
+ - Added information to PI tab
+- Created dedicated repositories and backlogs
+- Created M2 Presentation
+
+
+
+**Sprint results**
+
+
+
+# 20/03/2024 - 26/03/2024
+**Frontend**
+- ~~Create side bar component~~
+- ~~Create header component~~
+- ~~Create group menu component~~
+- ~~Create static monitors page~~
+- ~~Create static specific monitor page~~
+- ~~Create static media page~~
+**Backend**
+- ~~Research and start working on broker~~
+- ~~Fix docker compose~~
+- ~~Data initialization (mock)~~
+- ~~Endpoints~~
+ - ~~Fix some errors~~
+ - ~~Create missing tests~~
+**Media Player**
+- ~~Research about OS image and daemons~~
+- ~~Research and start working on mosquitto (broker - alongside backend)~~
+- ~~Started set up message protocol~~
+- ~~Research about news API~~
+**Extra**
+- ~~Add SonarQube to frontend~~
+- ~~Add SonarQube to backend~~
+- ~~Continue documentation~~
+- ~~Ask for videos~~
+
+**Sprint results**
+
+
+# 27/03/2024 - 02/04/2024
+- No sprint was set for this week due to holidays + other subject works.
+
+**Sprint results**
+
+
+# 03/04/2024 - 09/04/2024
+**Frontend**
+- Make pages dynamic
+- Design login
+- Implement login (?)
+- Research Calendar
+- Start working on calendar (?)
+**Backend**
+- Work on influxDB
+- Add swagger
+- Add github actions (automatic tests)
+- Implement basic log in
+- Fix code logic and structure
+**Media Player**
+- Backend integration
+- Continue Message Protocol
+- Work on automatic setup
+- Mock schedule
+**Extra**
+- Implement sonarcloud for organization (frontend, backend and MP)
+- Configure docker compose onto a single main one.
+- Decide logs Time To Live (TTL)
+
+**Whole of monday**
+- Refactor code
+- Work on documentation
+- Work on report
+
+
+**Sprint results**
