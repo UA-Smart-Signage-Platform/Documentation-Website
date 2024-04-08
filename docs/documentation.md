@@ -31,7 +31,83 @@ lol
 
 - 
 #### Media Player
-- mosquitto (...)
+
+##### Python
+The media player is fully implemented in python.
+
+##### pywebview
+Pywebview is a library that lets us build a GUI for our program using JavaScript, HTML, and CSS. It uses either GTK or QT for this.
+
+##### MQTT
+To communicate with the backend we utilize a broker that uses the MQTT protocol.
+
+#### Message Protocol
+
+##### Messages Sent by the Media Player
+
+```json
+Register Message (sent once to register the monitor)
+
+topic: "register"
+payload: 
+{
+    "method":"REGISTER",
+    "name":"",   // name defined when configuring the monitor
+    "width":"",  // screen width
+    "height":"", // screen height
+    "uuid":""    // unique identifier of the monitor
+}
+```
+
+```json
+Logs Message (sent periodically to share the logs with the server)
+
+topic: "logs"
+payload: 
+{
+    "method":"LOG",
+    "logs":"", // logs in text format
+    "uuid":""  // unique identifier of the monitor
+}
+```
+
+##### Messages Sent by the Server
+
+```json
+Confirm Register Message (sent as a response to the register message)
+
+topic: "uuid" // sent in a topic with the monitor's uuid
+payload: 
+{
+    "method":"CONFIRM_REGISTER",
+    "group":"" // group that the monitor was assigned to
+}
+```
+
+```json
+Set Group Message (sent when we want to change a monitor's group)
+
+topic: "uuid" // sent in a topic with the monitor's uuid
+payload: 
+{
+    "method":"GROUP",
+    "group":"" // group that the monitor was assigned to
+}
+```
+
+```json
+Template Message (sent when we want to change what a monitor is displaying)
+
+topic: "group/x" // sent for a specific group
+payload: 
+{
+    "method":"GROUP",
+    "group":"",    // group that the monitor was assigned to
+    "html": "",    // html to be displayed
+    "files": [],   // url for where to download the necessary files
+    "schedule": [] // schedule rules
+}
+```
 
 #### Deployment
 To provide an easy-to-start implementation, we are using docker to facilitate initialization and development.
