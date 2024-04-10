@@ -257,6 +257,10 @@ Goals:
 
 // TODO (Add certain topics related to M2, refine user stories)
 
+### System Architecture
+
+
+
 ## **Checkpoint 1**
 - [Checkpoint 1 Presentation](files/Checkpoint1_Presentation.pdf)
 

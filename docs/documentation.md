@@ -25,11 +25,13 @@ React Router enables client-side routing, providing a more responsive and speedy
 #### Backend
 ##### Spring Boot
 The backend will utilize Spring Boot for its effortless integration with various databases and robust security features. Furthermore, Spring Boot simplifies the testing process, ensuring reliable software quality.
-##### Mosquito(n sei se querem falar 2 vezes da mesma cena)
-lol
-##### 
+##### Mosquitto
+In the backend we used mosquitto as a message broker, which allows us to comunicate with the media player.
+##### PostgreSQL
+As the main database we used PostgreSQL, a relational database because our entities were very connected and also this database is very scalable.
+#### InfluxDB
+We also use another database to keep logs from the monitors, Spring Boot, and the status of the monitor. We chose this database because it allows us to associate a timestamp with each entry, facilitating tracking and analysis of when events occurred. 
 
-- 
 #### Media Player
 
 ##### Python
