@@ -2,7 +2,6 @@
 
 Welcome to UA Smart Signage! We appreciate your interest in contributing. Before you get started, please take a moment to review the following guidelines.
 
-
 ## Reporting Bugs
 
 ### Server Repository
@@ -56,7 +55,6 @@ Before contributing code changes to UA Smart Signage, it's important to ensure t
 
 4. If any tests fail, investigate the issue and make necessary corrections before proceeding.
 
-
 ## Code Style and Conventions
 
 Please adhere to the coding style and conventions used throughout the project. This includes:
@@ -64,6 +62,20 @@ Please adhere to the coding style and conventions used throughout the project. T
 - Following the style guide for the programming language used in the project.
 - Writing clear, concise, and well-documented code.
 - Using meaningful variable names and comments where necessary.
+
+## Definition of Done (DOD)
+
+The Definition of Done (DOD) outlines the criteria that must be met for a task to be considered complete. It ensures that all contributions to UA Smart Signage meet a consistent standard of quality and completeness. Below is our Definition of Done:
+
+1. **Functionality Implemented**: The code must implement the desired functionality as described in the task or user story.
+2. **Unit Tests Written**: Unit tests covering the implemented functionality must be written and passing.
+3. **Code Reviewed**: The code must undergo a review by at least one other team member to ensure quality, readability, and adherence to coding standards.
+4. **Documentation Updated**: Any relevant documentation, including README files, API documentation, and comments within the code, must be updated to reflect changes introduced by the contribution.
+5. **Integration Tests Passed**: If applicable, integration tests must be executed, and all relevant tests must pass.
+6. **Quality Assurance (QA) Testing**: The contribution must undergo QA testing to verify its correctness, usability, and compatibility with other components of UA Smart Signage.
+7. **Peer Approval**: A peer must approve the completion of the task based on the above criteria.
+
+By adhering to this Definition of Done, we ensure that all contributions meet the required standards of quality and readiness for deployment.
 
 ## Get in Touch
 
