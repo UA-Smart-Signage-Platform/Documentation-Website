@@ -81,26 +81,13 @@ Confirm Register Message (sent as a response to the register message)
 topic: "uuid" // sent in a topic with the monitor's uuid
 payload: 
 {
-    "method":"CONFIRM_REGISTER",
-    "group":"" // group that the monitor was assigned to
+    "method":"CONFIRM_REGISTER"
 }
 ```
-
-```json
-Set Group Message (sent when we want to change a monitor's group)
-
-topic: "uuid" // sent in a topic with the monitor's uuid
-payload: 
-{
-    "method":"GROUP",
-    "group":"" // group that the monitor was assigned to
-}
-```
-
 ```json
 Template Message (sent when we want to change what a monitor is displaying)
 
-topic: "group/x" // sent for a specific group
+topic: "uuid" // uuid of the monitor we want so send the message to
 payload: 
 {
     "method":"TEMPLATE",
