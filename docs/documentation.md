@@ -43,9 +43,12 @@ Pywebview is a library that lets us build a GUI for our program using JavaScript
 ##### MQTT
 To communicate with the backend we utilize a broker that uses the MQTT protocol.
 
-#### Message Protocol
+#### Deployment
+To provide an easy-to-start implementation, we are using docker to facilitate initialization and development.
 
-##### Messages Sent by the Media Player
+### Message Protocol
+
+#### Messages Sent by the Media Player
 
 ```json
 Register Message (sent once to register the monitor)
@@ -72,7 +75,7 @@ payload:
 }
 ```
 
-##### Messages Sent by the Server
+#### Messages Sent by the Server
 
 ```json
 Confirm Register Message (sent as a response to the register message)
@@ -105,9 +108,6 @@ topic: "uuid" // uuid of the monitor we want so send the message to
   ]
 }
 ```
-
-#### Deployment
-To provide an easy-to-start implementation, we are using docker to facilitate initialization and development.
 
 ## Getting started
 ### Requirements
