@@ -9,7 +9,9 @@ nav:
       - Key Concepts: documentation/key-concepts.md
       - Tech Stack: documentation/tech-stack.md
     - Getting Started:
-      - Setting Up: documentation/getting-started.md
+      - Setting Up (Development): documentation/setting-up-development.md
+      - Setting Up (Production): documentation/setting-up-production.md
+      - Troubleshooting: documentation/setting-up-troubleshooting.md
     - Message Protocol: documentation/message-protocol.md
 
   - Guidelines: guidelines.md
