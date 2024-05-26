@@ -18,7 +18,7 @@
 
 3. (Optional) Change variables in `prod.env` and `docker-compose.prod.yaml`
     - Change `localhost` to the ip address you want to use
-    - If you generated the mosquitto passwd file replace the `MQTT_USERNAME` `MQTT_PASSWORD` in `prod.env` values accordingly
+    - If you generated the mosquitto passwd file replace the `MQTT_USERNAME` `MQTT_PASSWORD` values in `prod.env` accordingly
     - Change other values as you see fit, for more information visit the [enviroment variables page]()
 
 4. Run the development docker-compose
