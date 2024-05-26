@@ -67,7 +67,7 @@ payload:
 ```json
 Keep-Alive Message (sent periodically to tell the backend it's still alive)
 
-topic: uuid // sent in a topic with the monitor's uuid
+topic: "keepalive"
 payload: 
 {
     "method":"KEEP_ALIVE",
