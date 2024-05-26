@@ -12,7 +12,12 @@ nav:
       - Setting Up (Development): documentation/setting-up-development.md
       - Setting Up (Production): documentation/setting-up-production.md
       - Troubleshooting: documentation/setting-up-troubleshooting.md
-    - Message Protocol: documentation/message-protocol.md
+    - Protocols:
+      - Message Protocol: documentation/message-protocol.md
+    - Creating New Content:
+      - Creating Templates: documentation/creating-templates.md
+      - Creating Widgets: documentation/creating-widgets.md
+
 
   - Guidelines: guidelines.md
   - PI: pi.md

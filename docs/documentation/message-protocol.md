@@ -25,7 +25,7 @@ payload:
 }
 ```
 
-#### Messages Sent by the Server
+#### Messages Sent by the Backend
 
 ```json
 Confirm Register Message (sent as a response to the register message)
