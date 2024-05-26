@@ -21,7 +21,7 @@
     - If you generated the mosquitto passwd file replace the `MQTT_USERNAME` `MQTT_PASSWORD` values in `prod.env` accordingly
     - Change other values as you see fit, for more information visit the [enviroment variables page]()
 
-4. Run the development docker-compose
+4. Run the production docker-compose
     ```
     docker-compose -f docker-compose.prod.yaml up --build
     ```
