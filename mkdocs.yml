@@ -17,7 +17,9 @@ nav:
     - Creating New Content:
       - Creating Templates: documentation/creating-templates.md
       - Creating Widgets: documentation/creating-widgets.md
-
+    - Configuration:
+      - Media Player Configuration: documentation/media-player-config.md
+      - Backend & Frontend Configuration: documentation/frontend-backend-config.md
 
   - Guidelines: guidelines.md
   - PI: pi.md

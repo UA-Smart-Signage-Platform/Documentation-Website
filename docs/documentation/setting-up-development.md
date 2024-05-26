@@ -33,7 +33,7 @@
     cp default_config.ini config.ini
     ```
 
-3. (Optional) Edit the values inside `config.ini`, for more information visit the [config page]()
+3. (Optional) Edit the values inside `config.ini`, for more information visit the [config page](../media-player-config/)
 
 4. Follow the instructions in the README (Debian and Debian-based only) or use this one-liner.
     ```

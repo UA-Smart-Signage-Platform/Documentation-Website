@@ -36,7 +36,7 @@
 
 3. Follow the instructions on the screen and enter the Hotspot and visit the configuration page
 
-4. Connect to the internet and change the configuration values as you see fit (for more information visit the [config page]())
+4. Connect to the internet and change the configuration values as you see fit (for more information visit the [config page](../media-player-config))
     - Ways to connect to the Internet:
         - If you plug in an ethernet cable and your network dynamically assigns ip addresses just leave the wifi password input empty and you are good to go.
         - If you want to use wifi choose one of the options available and input the password.
