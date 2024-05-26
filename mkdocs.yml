@@ -2,7 +2,16 @@ site_name: UA Smart Signage Platform Docs
 site_url: https://ua-smart-signage-platform.github.io/Documentation-Website/
 nav:
   - Home: index.md
-  - Documentation: documentation.md
+  - Documentation:
+    - Introduction: 
+      - About the Project: documentation/introduction.md
+      - Architecture: documentation/architecture.md
+      - Key Concepts: documentation/key-concepts.md
+      - Tech Stack: documentation/tech-stack.md
+    - Getting Started:
+      - Setting Up: documentation/getting-started.md
+    - Message Protocol: documentation/message-protocol.md
+
   - Guidelines: guidelines.md
   - PI: pi.md
 theme:
@@ -13,6 +22,7 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.tracking
+    - navigation.sections
     - navigation.indexes
     - toc.integrate
     - navigation.top

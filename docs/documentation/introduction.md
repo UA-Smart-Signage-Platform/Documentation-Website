@@ -1,0 +1,2 @@
+UA Smart Signage, an open source digital signage display software, offers **customizable** templates, advanced content **scheduling** and an array of incremental features. 
+Its **user-friendly** interfaces ensure a seamless experience for both tech-savvy individuals and those with limited technical knowledge, delivering a robust **UX** for all users.
