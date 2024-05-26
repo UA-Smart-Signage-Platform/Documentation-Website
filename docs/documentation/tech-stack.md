@@ -26,14 +26,23 @@ We also use another database to keep logs from the monitors, Spring Boot, and th
 
 #### Media Player
 
-##### Python
+##### python
 The media player is fully implemented in python.
 
 ##### pywebview
-Pywebview is a library that lets us build a GUI for our program using JavaScript, HTML, and CSS. It uses either GTK or QT for this.
+Used to build the GUI for our program using JavaScript, HTML, and CSS.
 
-##### MQTT
-To communicate with the backend we utilize a broker that uses the MQTT protocol.
+##### Paho MQTT
+To communicate with the backend we utilize the Paho MQTT client for python.
+
+##### RRule
+In the scheduler we utilize RRule to generate the start and end dates.
+
+##### Flask
+Used to fetch content from external apis and also used for the configuration page.
+
+##### NetworkManager
+We use the nmcli utility to create hotspots and manage internet connection.
 
 #### Deployment
 To provide an easy-to-start implementation, we are using docker to facilitate initialization and development.
