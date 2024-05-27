@@ -28,9 +28,9 @@
     git clone https://github.com/UA-Smart-Signage-Platform/Media-Player && cd Media-Player
     ```
 
-2. (Optional, Recommended) Create the config manually (if you don't do this, the program is gonna open an hotspot on startup)
+2. (Optional, Recommended) Create the config manually and generate the uuid file (this prevents the program from going into the user configuration which turns off your wifi to create an Hotspot). There is an [open issue](https://github.com/UA-Smart-Signage-Platform/Media-Player/issues/24) to implemente this as a feature.
     ```
-    cp default_config.ini config.ini
+    cp default_config.ini config.ini && uuidgen > uuid
     ```
 
 3. (Optional) Edit the values inside `config.ini`, for more information visit the [config page](../media-player-config/)
