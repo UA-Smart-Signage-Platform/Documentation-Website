@@ -76,9 +76,3 @@ The Definition of Done (DOD) outlines the criteria that must be met for a task t
 7. **Peer Approval**: A peer must approve the completion of the task based on the above criteria.
 
 By adhering to this Definition of Done, we ensure that all contributions meet the required standards of quality and readiness for deployment.
-
-## Get in Touch
-
-If you have any questions or need further assistance, feel free to reach out to us on [insert contact information here].
-
-Thank you for your contributions to UA Smart Signage!

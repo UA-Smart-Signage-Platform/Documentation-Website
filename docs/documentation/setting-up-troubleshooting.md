@@ -13,3 +13,16 @@
 ### Running without NetworkManager
 
 - If you want to run the program without the NetworkManager (if you are in WSL for example), firstly generate the config file manually as explained above and remove the `network_manager` import from `media_player.py` and remove all the places that it is used inside the file. This is possible since NetworkManager is only required for the user configuration part of the Media Player. (this works as of **26/05/2024**)
+
+
+### Cannot find module (Frontend)
+
+- This error happens when the system has not yet installed the requirements;
+```
+Failed to compile
+Error: Cannot find module [module]
+```
+To fix this simply run:
+```
+docker-compose up --build
+```
