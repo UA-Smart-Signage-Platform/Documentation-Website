@@ -266,74 +266,19 @@ Goals:
 
 // TODO (Add user flow, etc.)
 
-### Frontend
-
-**What is done**
-
-- Design of pages on figma
-- Static UI
-- Local SonarQube
-- Docker configuration
-
-**What wiil be done**
-
-- Incorporate backend integration logic by coding the functionality to make calls to backend endpoints.
-//TODO
-
-**Problems**
-// TODO
-
-### Backend
-
-**What is done**
-
-- Local SonarQube
-- Docker configuration
-- Endpoints for the modeled entities
-- Some tests for the entity monitor
-- Mosquitto configuration and comunication with media player
-- Mock data 
-- Tweaks to database and architecture models
-
-
-**What will we do**
-
-- Tests for the rest of the entities and endpoints
-- Improvements to some backend logic
-- InfluxDB configuration
-
-**Problems**
-
-- Constant changing of database model
-- Some logic missing
-
-### Media Player
-
-**What is done**
-
-- Logging
-- Message protocol
-- Mosquitto configuration and comunication with backend
-- API implementation
-- HTML generator mockup
-
-**What wiil we do**
-//TODO
-
-
-**Problems**
-//TODO
-
-
-###	User Workflow
-
-
-
 
 ## **Prototype Phase**
-- [M3: Prototype Phase Presentation]
+- [M3: Prototype Phase Presentation](files/M3_%20Prototype.pdf)
 
 // TODO
+
+## **Checkpoint 2**
+- [Checkpoint 2 Presentation](files/Checkpoint2_Presentation.pdf)
+
+
+## **Checkpoint 3**
+- [Checkpoint 3 Presentation](files/Checkpoint3_Presentation.pdf)
+
 
 ## **Last Phase**
 - [...]
