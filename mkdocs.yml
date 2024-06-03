@@ -20,6 +20,9 @@ nav:
     - Configuration:
       - Media Player Configuration: documentation/media-player-config.md
       - Backend & Frontend Configuration: documentation/frontend-backend-config.md
+    - Tests:  
+       - How to run the tests: documentation/tests.md
+
 
   - Guidelines: guidelines.md
   - PI: pi.md

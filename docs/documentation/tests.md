@@ -1,0 +1,1 @@
+- How ro run tests //TO BE DONE
