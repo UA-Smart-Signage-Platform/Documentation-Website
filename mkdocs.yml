@@ -26,6 +26,7 @@ nav:
 
   - Guidelines: guidelines.md
   - PI: pi.md
+  - Sprints: sprints.md
 theme:
   name: material
   logo: files/logo.svg
