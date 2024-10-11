@@ -1,12 +1,14 @@
 # **Sprints**
 To organize what needed doing and alike, sprints were created, along with weekly (friday) meetings with the tutors and a weekly (tuesday) meeting with the group to decide together what needed doing and what each one of us would end up doing.
 Every monday a sprint report would be created and delivered to the tutors to keep them up to date.
+
 Structure:
+
 - Summary : TODO list;
 - Detailed version : what was done but in detail (might not include everything);
 - Sprint result : report if something was missed.
 
-This was supervised/organized by Pedro for most of the project (out of his own free will), however, there were 2 weeks where Pedro put himself on standby so that the team could learn some organizing skills without his help, aiming and providing a way for them to feel the responsability of said position.
+This was supervised/organized mostly by the team manager, however, there were 2 weeks where the team manager put himself on standby so that the team could learn some organizing skills without his help, aiming and providing a way for them to feel the responsability of said position.
 
 
 ## 01/03/2024 - 08/03/2024
@@ -665,4 +667,6 @@ Missed
 
 This is the end of sprint creation and report.
 
-Overall I, Pedro, feel like the team did a good job most of the times at meeting deadlines. Organization-wise the team lacked a bit and I wasn't capable of providing what was needed due to lack of experience in team leading. Even then, I feel like I learned a lot and the team has as well.
+**Team manager personal message:**
+
+Overall I feel that the team did mostly a good job at meeting deadlines. When it comes to organization the team lacked a bit and I wasn't capable of providing what was needed due to lack of experience in team leading. Even then, I feel that this was a positive experience where I learned a lot and the team has as well.

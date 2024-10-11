@@ -255,8 +255,6 @@ Goals:
 - [Content Management System / Content Creator Tool](https://www.figma.com/file/y6D627skVNvPySSFYa8zkI/CMS-%2F-CCT-Templates)
 - [Documentation Website](https://www.figma.com/file/OYqGSLiljrJLuEHH0NNRfO/Documentation-Templates)
 
-// TODO (Add certain topics related to M2, refine user stories)
-
 ## **Checkpoint 1**
 - [Checkpoint 1 Presentation](files/Checkpoint1_Presentation.pdf)
 
